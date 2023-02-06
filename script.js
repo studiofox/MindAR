@@ -5,7 +5,7 @@ import { USDZLoader } from "USDZLoader";
 
 const mindarThree = new MindARThree({
   container: document.querySelector("#container"),
-  imageTargetSrc: "../assets/targets.mind",
+  imageTargetSrc: "assets/targets.mind",
 });
 
 const { renderer, scene, camera } = mindarThree;
