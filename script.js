@@ -27,7 +27,7 @@ dirliht.position.set(2, 2, 2);
       const loader1 = new GLTFLoader();
 
 let model1;
-loader1.load("../assets/box.glb", function (gltf) {
+loader1.load("assets/box.glb", function (gltf) {
   model1 = gltf.scene;
   anchor.group.add(model1);
   model1.position.set(-0.5, 0.2, -0.5);
